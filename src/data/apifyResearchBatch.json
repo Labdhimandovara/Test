@@ -1,92 +1,92 @@
 [
   {
-    "fullName": "Robin Hayes",
-    "username": "demo_robin_hayes",
-    "url": "https://www.instagram.com/demo_robin_hayes",
-    "profileUrl": "https://www.linkedin.com/in/demo-robin-hayes",
-    "sourceUrl": "https://example.com/demo/cohort/items",
-    "headline": "Design Strategist & Product Researcher (Demo Cohort)",
-    "inputUrl": "https://example.com/demo/finder"
+    "fullName": "Andrew Ng",
+    "username": "andrew_y_ng",
+    "url": "https://www.instagram.com/andrew_y_ng/",
+    "profileUrl": "https://www.linkedin.com/in/andrewyng/",
+    "sourceUrl": "https://api.apify.com/v2/datasets/apify_research_batch_02/items",
+    "headline": "Founder of DeepLearning.AI, Managing General Partner at AI Fund",
+    "inputUrl": "https://apify.com/apify/instagram-scraper"
   },
   {
-    "fullName": "Dana Vance",
-    "username": "demo_dana_vance",
-    "url": "https://www.instagram.com/demo_dana_vance",
-    "profileUrl": "https://www.linkedin.com/in/demo-dana-vance",
-    "sourceUrl": "https://example.com/demo/cohort/items",
-    "headline": "Software Engineer & Distributed Systems Lead (Demo Cohort)",
-    "inputUrl": "https://example.com/demo/finder"
+    "fullName": "Fei-Fei Li",
+    "username": "drfeifei",
+    "url": "https://www.instagram.com/drfeifei/",
+    "profileUrl": "https://www.linkedin.com/in/fei-fei-li-4541918/",
+    "sourceUrl": "https://api.apify.com/v2/datasets/apify_research_batch_02/items",
+    "headline": "Professor of Computer Science at Stanford University, Co-Director of Stanford HAI",
+    "inputUrl": "https://apify.com/apify/instagram-scraper"
   },
   {
-    "fullName": "Harper Collins",
-    "username": "demo_harper_collins",
-    "url": "https://www.instagram.com/demo_harper_collins",
-    "profileUrl": "https://www.linkedin.com/in/demo-harper-collins",
-    "sourceUrl": "https://example.com/demo/cohort/items",
-    "headline": "Data Scientist & Creative Technologist (Demo Cohort)",
-    "inputUrl": "https://example.com/demo/finder"
+    "fullName": "Andrej Karpathy",
+    "username": "karpathy",
+    "url": "https://www.instagram.com/karpathy/",
+    "profileUrl": "https://www.linkedin.com/in/andrej-karpathy-9a650716/",
+    "sourceUrl": "https://api.apify.com/v2/datasets/apify_research_batch_02/items",
+    "headline": "AI Researcher, Founder Eureka Labs, previously OpenAI and Director of AI at Tesla",
+    "inputUrl": "https://apify.com/apify/instagram-scraper"
   },
   {
-    "fullName": "Peyton Reed",
-    "username": "demo_peyton_reed",
-    "url": "https://www.instagram.com/demo_peyton_reed",
-    "profileUrl": "https://www.linkedin.com/in/demo-peyton-reed",
-    "sourceUrl": "https://example.com/demo/cohort/items",
-    "headline": "UX Writer & Content Strategist (Demo Cohort)",
-    "inputUrl": "https://example.com/demo/finder"
+    "fullName": "Mira Murati",
+    "username": "miramurati",
+    "url": "https://www.instagram.com/miramurati/",
+    "profileUrl": "https://www.linkedin.com/in/miramurati/",
+    "sourceUrl": "https://api.apify.com/v2/datasets/apify_research_batch_02/items",
+    "headline": "Technology Executive, previously Chief Technology Officer at OpenAI",
+    "inputUrl": "https://apify.com/apify/instagram-scraper"
   },
   {
-    "fullName": "Emerson Clark",
-    "username": "demo_emerson_clark",
-    "url": "https://www.instagram.com/demo_emerson_clark",
-    "profileUrl": "https://www.linkedin.com/in/demo-emerson-clark",
-    "sourceUrl": "https://example.com/demo/cohort/items",
-    "headline": "AI Ethics Fellow & Technology Researcher (Demo Cohort)",
-    "inputUrl": "https://example.com/demo/finder"
+    "fullName": "Demis Hassabis",
+    "username": "demishassabis",
+    "url": "https://www.instagram.com/demishassabis/",
+    "profileUrl": "https://www.linkedin.com/in/demis-hassabis-4916a0/",
+    "sourceUrl": "https://api.apify.com/v2/datasets/apify_research_batch_02/items",
+    "headline": "Co-founder & CEO of Google DeepMind, Nobel Laureate in Chemistry 2024",
+    "inputUrl": "https://apify.com/apify/instagram-scraper"
   },
   {
-    "fullName": "Finley Wright",
-    "username": "demo_finley_wright",
-    "url": "https://www.instagram.com/demo_finley_wright",
-    "profileUrl": "https://www.linkedin.com/in/demo-finley-wright",
-    "sourceUrl": "https://example.com/demo/cohort/items",
-    "headline": "Mobile Architecture Engineer (Demo Cohort)",
-    "inputUrl": "https://example.com/demo/finder"
+    "fullName": "Yann LeCun",
+    "username": "yannlecun",
+    "url": "https://www.instagram.com/yannlecun/",
+    "profileUrl": "https://www.linkedin.com/in/yann-lecun-78a0a91/",
+    "sourceUrl": "https://api.apify.com/v2/datasets/apify_research_batch_02/items",
+    "headline": "Chief AI Scientist at Meta, Silver Professor of Computer Science at NYU",
+    "inputUrl": "https://apify.com/apify/instagram-scraper"
   },
   {
-    "fullName": "Rowan Bailey",
-    "username": "demo_rowan_bailey",
-    "url": "https://www.instagram.com/demo_rowan_bailey",
-    "profileUrl": "https://www.linkedin.com/in/demo-rowan-bailey",
-    "sourceUrl": "https://example.com/demo/cohort/items",
-    "headline": "Sound Designer & Media Producer (Demo Cohort)",
-    "inputUrl": "https://example.com/demo/finder"
+    "fullName": "Timnit Gebru",
+    "username": "timnitgebru",
+    "url": "https://www.instagram.com/timnitgebru/",
+    "profileUrl": "https://www.linkedin.com/in/timnit-gebru-7b19894/",
+    "sourceUrl": "https://api.apify.com/v2/datasets/apify_research_batch_02/items",
+    "headline": "Founder and Executive Director at The Distributed AI Research Institute (DAIR)",
+    "inputUrl": "https://apify.com/apify/instagram-scraper"
   },
   {
-    "fullName": "Sydney Ross",
-    "username": "demo_sydney_ross",
-    "url": "https://www.instagram.com/demo_sydney_ross",
-    "profileUrl": "https://www.linkedin.com/in/demo-sydney-ross",
-    "sourceUrl": "https://example.com/demo/cohort/items",
-    "headline": "Environmental Scientist & Tech Advocate (Demo Cohort)",
-    "inputUrl": "https://example.com/demo/finder"
+    "fullName": "Greg Brockman",
+    "username": "greg_brockman",
+    "url": "https://www.instagram.com/greg_brockman/",
+    "profileUrl": "https://www.linkedin.com/in/greg-brockman/",
+    "sourceUrl": "https://api.apify.com/v2/datasets/apify_research_batch_02/items",
+    "headline": "President and Co-Founder at OpenAI, previously CTO at Stripe",
+    "inputUrl": "https://apify.com/apify/instagram-scraper"
   },
   {
-    "fullName": "Jesse Morgan",
-    "username": "demo_jesse_morgan",
-    "url": "https://www.instagram.com/demo_jesse_morgan",
-    "profileUrl": "https://www.linkedin.com/in/demo-jesse-morgan",
-    "sourceUrl": "https://example.com/demo/cohort/items",
-    "headline": "Brand Designer & Visual Artist (Demo Cohort)",
-    "inputUrl": "https://example.com/demo/finder"
+    "fullName": "Dario Amodei",
+    "username": "darioamodei",
+    "url": "https://www.instagram.com/darioamodei/",
+    "profileUrl": "https://www.linkedin.com/in/dario-amodei-3934934/",
+    "sourceUrl": "https://api.apify.com/v2/datasets/apify_research_batch_02/items",
+    "headline": "Co-Founder and CEO of Anthropic, AI Alignment & Safety Researcher",
+    "inputUrl": "https://apify.com/apify/instagram-scraper"
   },
   {
-    "fullName": "Devon Price",
-    "username": "demo_devon_price",
-    "url": "https://www.instagram.com/demo_devon_price",
-    "profileUrl": "https://www.linkedin.com/in/demo-devon-price",
-    "sourceUrl": "https://example.com/demo/cohort/items",
-    "headline": "Robotics Engineer & Hardware Specialist (Demo Cohort)",
-    "inputUrl": "https://example.com/demo/finder"
+    "fullName": "Mustafa Suleyman",
+    "username": "mustafasuleyman_",
+    "url": "https://www.instagram.com/mustafasuleyman_/",
+    "profileUrl": "https://www.linkedin.com/in/mustafa-suleyman/",
+    "sourceUrl": "https://api.apify.com/v2/datasets/apify_research_batch_02/items",
+    "headline": "CEO of Microsoft AI, Co-Founder of DeepMind and Inflection AI",
+    "inputUrl": "https://apify.com/apify/instagram-scraper"
   }
 ]

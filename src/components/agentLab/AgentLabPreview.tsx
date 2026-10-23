@@ -101,7 +101,7 @@ export const AgentLabPreview: React.FC<AgentLabPreviewProps> = ({
       });
     }
 
-    const p2 = profiles.find(p => p.name.includes('Jordan') || p.id !== p1?.id) || profiles[1];
+    const p2 = profiles.find(p => p.name.includes('Aditya') || p.name.includes('Udit') || p.id !== p1?.id) || profiles[1];
     if (p2) {
       profileRepo.updateProfile(p2.id, {
         participationStatus: 'enrolled',

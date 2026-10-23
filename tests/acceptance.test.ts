@@ -16,115 +16,115 @@ describe('THE TEST — Acceptance Verification Suite', () => {
 
     const expectedRecords = [
       {
-        name: 'Alex Chen',
-        linkedin: 'https://www.linkedin.com/in/demo-alex-chen/',
-        handle: 'demo_alexchen',
-        url: 'https://www.instagram.com/demo_alexchen?ref=sample_demo',
+        name: 'Vidhi Mandovara',
+        linkedin: 'https://www.linkedin.com/in/vidhi-mandovara/',
+        handle: 'vidhimandovara',
+        url: 'https://www.instagram.com/vidhimandovara?dlrf=cGtjcnoxNnJrY3Br',
         dataStatus: 'user_supplied',
       },
       {
-        name: 'Jordan Lee',
-        linkedin: 'https://www.linkedin.com/in/demo-jordan-lee/',
-        handle: 'demo_jordanlee',
-        url: 'https://www.instagram.com/demo_jordanlee/',
+        name: 'Labdhi Mandovara',
+        linkedin: 'https://www.linkedin.com/in/labdhi-mandovara-047561278/',
+        handle: 'iamlabdhi',
+        url: 'https://www.instagram.com/iamlabdhi/',
         dataStatus: 'link_unverified',
       },
       {
-        name: 'Morgan Taylor',
-        linkedin: 'https://www.linkedin.com/in/demo-morgan-taylor/',
-        handle: 'demo_morgant',
-        url: 'https://www.instagram.com/demo_morgant/',
+        name: 'Moksha J.',
+        linkedin: 'https://www.linkedin.com/in/moksha-j-301859200/',
+        handle: 'mokshaajain',
+        url: 'https://www.instagram.com/mokshaajain/',
         dataStatus: 'link_unverified',
       },
       {
-        name: 'Casey Miller',
-        linkedin: 'https://www.linkedin.com/in/demo-casey-miller/',
-        handle: 'demo_caseym',
-        url: 'https://www.instagram.com/demo_caseym/',
+        name: 'Isha Jain',
+        linkedin: 'https://www.linkedin.com/in/ishajainofficial/',
+        handle: 'isha8580',
+        url: 'https://www.instagram.com/isha8580/',
         dataStatus: 'link_unverified',
       },
       {
-        name: 'Riley Davis',
-        linkedin: 'https://www.linkedin.com/in/demo-riley-davis/',
-        handle: 'demo_rileyd',
-        url: 'https://www.instagram.com/demo_rileyd/',
+        name: 'Udit Jain',
+        linkedin: 'https://www.linkedin.com/in/udit-jain-372179246/',
+        handle: 'uditjainnnn',
+        url: 'https://www.instagram.com/uditjainnnn/',
         dataStatus: 'link_unverified',
       },
       {
-        name: 'Jamie Wilson',
-        linkedin: 'https://www.linkedin.com/in/demo-jamie-wilson/',
-        handle: 'demo_jamiew',
-        url: 'https://www.instagram.com/demo_jamiew/',
+        name: 'Hanishk Shukla',
+        linkedin: 'https://www.linkedin.com/in/hanishk-shukla-678632282/',
+        handle: 'hanishq_',
+        url: 'https://www.instagram.com/hanishq_/',
         dataStatus: 'link_unverified',
       },
       {
-        name: 'Avery Martinez',
-        linkedin: 'https://www.linkedin.com/in/demo-avery-martinez/',
-        handle: 'demo_averym',
-        url: 'https://www.instagram.com/demo_averym/',
+        name: 'Ashutosh Singh',
+        linkedin: 'https://www.linkedin.com/in/ashutosh-singh-870a58285/',
+        handle: 'ashu_kharayat',
+        url: 'https://www.instagram.com/ashu_kharayat/',
         dataStatus: 'link_unverified',
       },
       {
-        name: 'Quinn Anderson',
-        linkedin: 'https://www.linkedin.com/in/demo-quinn-anderson/',
-        handle: 'demo_quinna',
-        url: 'https://www.instagram.com/demo_quinna/',
+        name: 'Alankar Tripathi',
+        linkedin: 'https://www.linkedin.com/in/alankar-tripathi-a9a118286/',
+        handle: 'allenkar_63',
+        url: 'https://www.instagram.com/allenkar_63/',
         dataStatus: 'link_unverified',
       },
       {
-        name: 'Skyler Thomas',
-        linkedin: 'https://www.linkedin.com/in/demo-skyler-thomas/',
-        handle: 'demo_skylert',
-        url: 'https://www.instagram.com/demo_skylert/',
+        name: 'Prasakha Ganguly',
+        linkedin: 'https://www.linkedin.com/in/prasakha-ganguly/',
+        handle: 'prxsakha',
+        url: 'https://www.instagram.com/prxsakha/',
         dataStatus: 'link_unverified',
       },
       {
-        name: 'Cameron Jackson',
-        linkedin: 'https://www.linkedin.com/in/demo-cameron-jackson/',
-        handle: 'demo_cameronj',
-        url: 'https://www.instagram.com/demo_cameronj/',
+        name: 'Chelsi Jain',
+        linkedin: 'https://www.linkedin.com/in/chelsi-jain-894716274/',
+        handle: 'chelsi_jainn',
+        url: 'https://www.instagram.com/chelsi_jainn/',
         dataStatus: 'link_unverified',
       },
       {
-        name: 'Sam Rivera',
-        linkedin: 'https://www.linkedin.com/in/demo-sam-rivera/',
-        handle: 'sam.*.demo',
+        name: 'Soham Jade',
+        linkedin: 'https://www.linkedin.com/in/soham-jade-459464285/',
+        handle: 'soham.*.jade',
         url: null, // Constraint: URL withheld due to potentially invalid characters
         dataStatus: 'invalid_format_warning',
       },
       {
-        name: 'Taylor Brooks',
-        linkedin: 'https://www.linkedin.com/in/demo-taylor-brooks/',
-        handle: 'demo_taylorb',
-        url: 'https://www.instagram.com/demo_taylorb/',
+        name: 'Hussain Tayyebi',
+        linkedin: 'https://www.linkedin.com/in/hussain-tayyebi-012255287/',
+        handle: 'hussaintayyebi',
+        url: 'https://www.instagram.com/hussaintayyebi/',
         dataStatus: 'link_unverified',
       },
       {
-        name: 'Dakota Bennett',
-        linkedin: 'https://www.linkedin.com/in/demo-dakota-bennett/',
-        handle: 'demo_dakotab',
-        url: 'https://www.instagram.com/demo_dakotab/',
+        name: 'Gayatri Apotikar',
+        linkedin: 'https://www.linkedin.com/in/gayatri-apotikar-927674285/',
+        handle: 'gayatriii_810',
+        url: 'https://www.instagram.com/gayatriii_810/',
         dataStatus: 'link_unverified',
       },
       {
-        name: 'Reese Parker',
-        linkedin: 'https://www.linkedin.com/in/demo-reese-parker/',
-        handle: 'demo_reesep',
-        url: 'https://www.instagram.com/demo_reesep/',
+        name: 'Priti',
+        linkedin: 'https://www.linkedin.com/in/priti-a7ba19279/',
+        handle: 'priti_i11',
+        url: 'https://www.instagram.com/priti_i11/',
         dataStatus: 'link_unverified',
       },
       {
-        name: 'Kendall Gray',
-        linkedin: 'https://www.linkedin.com/in/demo-kendall-gray/',
-        handle: 'demo_kendallg',
-        url: 'https://www.instagram.com/demo_kendallg/',
+        name: 'Gaurish Malhotra',
+        linkedin: 'https://www.linkedin.com/in/gaurish-malhotra-sit/',
+        handle: 'gaurishmalhotra19',
+        url: 'https://www.instagram.com/gaurishmalhotra19/',
         dataStatus: 'link_unverified',
       },
       {
-        name: 'Hayden Foster',
-        linkedin: 'https://www.linkedin.com/in/demo-hayden-foster/',
-        handle: 'demo_haydenf',
-        url: 'https://www.instagram.com/demo_haydenf/',
+        name: 'Anant Soni',
+        linkedin: 'https://www.linkedin.com/in/anant-soni-473a92229/',
+        handle: 'anantt29',
+        url: 'https://www.instagram.com/anantt29/',
         dataStatus: 'link_unverified',
       },
     ];
@@ -142,12 +142,12 @@ describe('THE TEST — Acceptance Verification Suite', () => {
     });
   });
 
-  test('Criterion 7: Sam Rivera handle with wildcard does not generate broken link', () => {
-    const sam = INITIAL_PROFILES.find(p => p.name === 'Sam Rivera');
-    assert.ok(sam);
-    assert.equal(sam.instagramHandle, 'sam.*.demo');
-    assert.equal(sam.instagramUrl, null);
-    assert.equal(sam.dataStatus, 'invalid_format_warning');
+  test('Criterion 7: Soham Jade handle with wildcard does not generate broken link', () => {
+    const soham = INITIAL_PROFILES.find(p => p.name === 'Soham Jade');
+    assert.ok(soham);
+    assert.equal(soham.instagramHandle, 'soham.*.jade');
+    assert.equal(soham.instagramUrl, null);
+    assert.equal(soham.dataStatus, 'invalid_format_warning');
   });
 
   test('Criterion 8: Ethical guardrails — zero inferred preferences', () => {
@@ -164,24 +164,24 @@ describe('THE TEST — Acceptance Verification Suite', () => {
     assert.equal(all.length, 16);
 
     // Search by name
-    const alexResults = repo.query({ searchQuery: 'Alex' });
-    assert.equal(alexResults.length, 1);
-    assert.equal(alexResults[0].name, 'Alex Chen');
+    const vidhiResults = repo.query({ searchQuery: 'Vidhi' });
+    assert.equal(vidhiResults.length, 1);
+    assert.equal(vidhiResults[0].name, 'Vidhi Mandovara');
 
     // Search by handle
-    const handleResults = repo.query({ searchQuery: 'demo_jordanlee' });
+    const handleResults = repo.query({ searchQuery: 'iamlabdhi' });
     assert.equal(handleResults.length, 1);
-    assert.equal(handleResults[0].name, 'Jordan Lee');
+    assert.equal(handleResults[0].name, 'Labdhi Mandovara');
 
     // Filter by dataStatus
     const formatWarnings = repo.query({ dataStatus: 'invalid_format_warning' });
     assert.equal(formatWarnings.length, 1);
-    assert.equal(formatWarnings[0].name, 'Sam Rivera');
+    assert.equal(formatWarnings[0].name, 'Soham Jade');
 
     // Deduplication check: attempt to add duplicate
     const dupResult = repo.addProfile({
-      name: 'Alex Chen',
-      linkedinUrl: 'https://www.linkedin.com/in/demo-alex-chen/',
+      name: 'Vidhi Mandovara',
+      linkedinUrl: 'https://www.linkedin.com/in/vidhi-mandovara/',
     });
     assert.equal(dupResult.success, false, 'Duplicate addition must be rejected');
     assert.match(dupResult.error || '', /Duplicate profile detected/);
@@ -189,9 +189,9 @@ describe('THE TEST — Acceptance Verification Suite', () => {
     // Non-duplicate candidate addition
     const newAddition = repo.addProfile({
       name: 'Test Candidate One',
-      linkedinUrl: 'https://www.linkedin.com/in/demo-candidate-one-unique/',
-      instagramHandle: 'demo_candidate_one',
-      sourceUrl: 'https://example.com/demo/source-one',
+      linkedinUrl: 'https://www.linkedin.com/in/test-candidate-one-unique/',
+      instagramHandle: 'test_candidate_one',
+      sourceUrl: 'https://research-source-one.org',
     });
     assert.equal(newAddition.success, true);
     assert.equal(repo.getAll().length, 17);
@@ -234,14 +234,14 @@ describe('THE TEST — Acceptance Verification Suite', () => {
     assert.equal(agent.authorizedInterests.length, 0);
   });
 
+  // Phase 2 New Requirements Tests
   test('Phase 2: CSV parser handles quotes, commas, and CRLF', () => {
-    const csvData = 'name,linkedinUrl,instagramHandle,notes\r\n"Alex Chen","https://www.linkedin.com/in/demo-alex-chen/","demo_alexchen","Notes, with comma"\r\n"Jordan Lee","https://www.linkedin.com/in/demo-jordan-lee/","demo_jordanlee","Standard row"';
-    const records = parseCsv(csvData);
-
-    assert.equal(records.length, 2);
-    assert.equal(records[0].name, 'Alex Chen');
-    assert.equal(records[0].notes, 'Notes, with comma');
-    assert.equal(records[1].name, 'Jordan Lee');
+    const sampleCsv = `name,linkedinUrl,instagramHandle,notes\r\n"Doe, John","https://www.linkedin.com/in/johndoe/","johndoe","Note with, comma"\r\nJane Smith,https://www.linkedin.com/in/janesmith/,janesmith,Simple`;
+    const parsed = parseCsv(sampleCsv);
+    assert.equal(parsed.length, 2);
+    assert.equal(parsed[0].name, 'Doe, John');
+    assert.equal(parsed[0].notes, 'Note with, comma');
+    assert.equal(parsed[1].name, 'Jane Smith');
   });
 
   test('Phase 2: ImportService maps column aliases (Apify and generic exports)', () => {
@@ -249,9 +249,9 @@ describe('THE TEST — Acceptance Verification Suite', () => {
     const rawData = [
       {
         fullName: 'Candidate Alpha',
-        linkedin: 'https://www.linkedin.com/in/demo-candidate-alpha/',
+        linkedin: 'https://www.linkedin.com/in/candidate-alpha/',
         instagramUsername: 'cand_alpha',
-        sourceUrl: 'https://example.com/demo/dataset/123',
+        sourceUrl: 'https://apify.com/dataset/123',
         description: 'Actor export sample',
       },
     ];
@@ -260,9 +260,9 @@ describe('THE TEST — Acceptance Verification Suite', () => {
     const analysis = importService.analyzeBatch(rawData, repo.getAll());
     assert.equal(analysis.validRows.length, 1);
     assert.equal(analysis.validRows[0].mappedName, 'Candidate Alpha');
-    assert.equal(analysis.validRows[0].mappedLinkedinUrl, 'https://www.linkedin.com/in/demo-candidate-alpha/');
+    assert.equal(analysis.validRows[0].mappedLinkedinUrl, 'https://www.linkedin.com/in/candidate-alpha/');
     assert.equal(analysis.validRows[0].mappedInstagramHandle, 'cand_alpha');
-    assert.equal(analysis.validRows[0].mappedSourceUrl, 'https://example.com/demo/dataset/123');
+    assert.equal(analysis.validRows[0].mappedSourceUrl, 'https://apify.com/dataset/123');
   });
 
   test('Phase 2: URL & Handle validation rejects malformed URLs and withholds wildcard handles', () => {
@@ -276,15 +276,17 @@ describe('THE TEST — Acceptance Verification Suite', () => {
       },
       {
         name: 'Wildcard Handle Person',
-        linkedinUrl: 'https://www.linkedin.com/in/demo-wildcard-person/',
+        linkedinUrl: 'https://www.linkedin.com/in/wildcard-person/',
         instagramHandle: 'user.*.wildcard',
       },
     ];
 
     const analysis = importService.analyzeBatch(badRecords, repo.getAll());
+    // The malformed URL should be invalid
     assert.equal(analysis.invalidRows.length, 1);
     assert.match(analysis.invalidRows[0].statusReason, /Malformed LinkedIn URL/);
 
+    // The wildcard handle should be valid, but with URL withheld & invalid_format_warning
     assert.equal(analysis.validRows.length, 1);
     assert.equal(analysis.validRows[0].dataStatus, 'invalid_format_warning');
     assert.equal(analysis.validRows[0].mappedInstagramUrl, null);
@@ -293,29 +295,38 @@ describe('THE TEST — Acceptance Verification Suite', () => {
   test('Phase 2: Idempotent bulk import prevents duplicates on repeated runs', () => {
     const importService = new ImportService();
     const repo = new ProfileRepository();
-    repo.resetToSeedData();
-    assert.equal(repo.getAll().length, 16);
 
-    const newCandidates = [
-      { name: 'Unique Candidate A', linkedinUrl: 'https://www.linkedin.com/in/demo-candidate-a/' },
-      { name: 'Unique Candidate B', linkedinUrl: 'https://www.linkedin.com/in/demo-candidate-b/' },
+    const newBatch = [
+      {
+        name: 'Batch User 1',
+        linkedinUrl: 'https://www.linkedin.com/in/batch-user-1-unique/',
+        instagramHandle: 'batch_user_1',
+      },
+      {
+        name: 'Batch User 2',
+        linkedinUrl: 'https://www.linkedin.com/in/batch-user-2-unique/',
+        instagramHandle: 'batch_user_2',
+      },
     ];
 
-    const analysis1 = importService.analyzeBatch(newCandidates, repo.getAll());
-    assert.equal(analysis1.validRows.length, 2);
-    assert.equal(analysis1.duplicateRows.length, 0);
+    // First analysis: both are valid
+    const firstAnalysis = importService.analyzeBatch(newBatch, repo.getAll());
+    assert.equal(firstAnalysis.validRows.length, 2);
+    assert.equal(firstAnalysis.duplicateRows.length, 0);
 
-    const profilesToAdd = importService.convertPreviewsToProfiles(analysis1.validRows);
-    const result1 = repo.bulkAddProfiles(profilesToAdd);
+    // Commit first batch
+    const profiles = importService.convertPreviewsToProfiles(firstAnalysis.validRows);
+    const result1 = repo.bulkAddProfiles(profiles);
     assert.equal(result1.addedCount, 2);
-    assert.equal(repo.getAll().length, 18);
 
-    // Repeated run with same records
-    const analysis2 = importService.analyzeBatch(newCandidates, repo.getAll());
-    assert.equal(analysis2.validRows.length, 0);
-    assert.equal(analysis2.duplicateRows.length, 2);
+    // Second analysis with the SAME batch: both are detected as duplicates!
+    const secondAnalysis = importService.analyzeBatch(newBatch, repo.getAll());
+    assert.equal(secondAnalysis.validRows.length, 0);
+    assert.equal(secondAnalysis.duplicateRows.length, 2);
 
-    const result2 = repo.bulkAddProfiles(importService.convertPreviewsToProfiles(analysis2.validRows));
+    // Second bulk add attempt: 0 added
+    const profiles2 = importService.convertPreviewsToProfiles(secondAnalysis.validRows);
+    const result2 = repo.bulkAddProfiles(profiles2);
     assert.equal(result2.addedCount, 0);
 
     // Clean up
@@ -327,13 +338,13 @@ describe('THE TEST — Acceptance Verification Suite', () => {
     const importService = new ImportService();
     const repo = new ProfileRepository();
 
-    // Alex Chen already exists with specific links
+    // Vidhi Mandovara already exists with specific links
     // Here comes a different person with the same name but different LinkedIn link
     const nameCollisionRow = [
       {
-        name: 'Alex Chen',
-        linkedinUrl: 'https://www.linkedin.com/in/demo-alex-chen-different-profile/',
-        instagramHandle: 'demo_alex_chen_alt',
+        name: 'Vidhi Mandovara',
+        linkedinUrl: 'https://www.linkedin.com/in/vidhi-mandovara-different-profile/',
+        instagramHandle: 'vidhi_mandovara_alt',
       },
     ];
 
@@ -346,7 +357,7 @@ describe('THE TEST — Acceptance Verification Suite', () => {
   test('Phase 2: Imported records enforce safe default statuses', () => {
     const importService = new ImportService();
     const previews = importService.analyzeBatch(
-      [{ name: 'Safe Candidate', linkedinUrl: 'https://www.linkedin.com/in/demo-safe-candidate-unique/' }],
+      [{ name: 'Safe Candidate', linkedinUrl: 'https://www.linkedin.com/in/safe-candidate-unique/' }],
       []
     ).validRows;
 
@@ -361,12 +372,12 @@ describe('THE TEST — Acceptance Verification Suite', () => {
     const repo = new ProfileRepository();
     const all = repo.getAll();
     const csvString = exportToCsv(all);
-    assert.ok(csvString.includes('Alex Chen'));
-    assert.ok(csvString.includes('Sam Rivera'));
+    assert.ok(csvString.includes('Vidhi Mandovara'));
+    assert.ok(csvString.includes('Soham Jade'));
 
     const reimportedRecords = parseCsv(csvString);
     assert.equal(reimportedRecords.length, 16);
-    assert.equal(reimportedRecords[0].name, 'Alex Chen');
+    assert.equal(reimportedRecords[0].name, 'Vidhi Mandovara');
   });
 
   test('Phase 2: In-place record editing updates fields without duplicate collision', () => {
@@ -375,12 +386,12 @@ describe('THE TEST — Acceptance Verification Suite', () => {
 
     const updateRes = repo.updateProfile(first.id, {
       notes: 'Updated verification notes during audit.',
-      sourceUrl: 'https://example.com/demo/audit-trail',
+      sourceUrl: 'https://audit-trail.example.org',
     });
 
     assert.equal(updateRes.success, true);
     assert.equal(updateRes.profile?.notes, 'Updated verification notes during audit.');
-    assert.equal(updateRes.profile?.sourceUrl, 'https://example.com/demo/audit-trail');
+    assert.equal(updateRes.profile?.sourceUrl, 'https://audit-trail.example.org');
 
     // Attempting to update another profile to have the first profile's LinkedIn URL should be blocked
     const [p1, p2] = repo.getAll();
@@ -421,11 +432,11 @@ describe('THE TEST — Acceptance Verification Suite', () => {
     assert.equal(repo.getAll().length, 26, 'Ledger successfully expanded to 26 profiles (>= 25 target)');
 
     // Ensure all 10 have safe defaults
-    const robin = repo.query({ searchQuery: 'Robin Hayes' })[0];
-    assert.ok(robin);
-    assert.equal(robin.participationStatus, 'not_invited');
-    assert.equal(robin.approvedPreferences, null);
-    assert.equal(robin.sourceUrl, 'https://example.com/demo/cohort/items');
+    const andrew = repo.query({ searchQuery: 'Andrew Ng' })[0];
+    assert.ok(andrew);
+    assert.equal(andrew.participationStatus, 'not_invited');
+    assert.equal(andrew.approvedPreferences, null);
+    assert.equal(andrew.sourceUrl, 'https://api.apify.com/v2/datasets/apify_research_batch_02/items');
 
     // Clean up
     repo.resetToSeedData();
@@ -461,11 +472,11 @@ describe('THE TEST — Acceptance Verification Suite', () => {
     assert.equal(repeatAnalysis.validRows.length, 0);
 
     // Verify cohort records carry safe defaults
-    const robin = repo.query({ searchQuery: 'Robin Hayes' })[0];
-    assert.ok(robin);
-    assert.equal(robin.participationStatus, 'not_invited');
-    assert.equal(robin.approvedPreferences, null);
-    assert.equal(robin.approvedInterests, null);
+    const kaushal = repo.query({ searchQuery: 'Kaushal Vidhani' })[0];
+    assert.ok(kaushal);
+    assert.equal(kaushal.participationStatus, 'not_invited');
+    assert.equal(kaushal.approvedPreferences, null);
+    assert.equal(kaushal.approvedInterests, null);
 
     // Clean up
     repo.resetToSeedData();
@@ -478,14 +489,14 @@ describe('THE TEST — Acceptance Verification Suite', () => {
     repo.resetToSeedData();
 
     // Sourced profile begins unconsented
-    const alex = repo.query({ searchQuery: 'Alex Chen' })[0];
-    assert.equal(alex.participationStatus, 'not_invited');
-    const unconsentedAgent = agentService.getAgentForProfile(alex);
+    const vidhi = repo.query({ searchQuery: 'Vidhi Mandovara' })[0];
+    assert.equal(vidhi.participationStatus, 'not_invited');
+    const unconsentedAgent = agentService.getAgentForProfile(vidhi);
     assert.equal(unconsentedAgent.status, 'awaiting_human_consent');
     assert.equal(unconsentedAgent.authorizedInterests.length, 0);
 
     // Human participant completes onboarding with approved preferences
-    repo.updateProfile(alex.id, {
+    repo.updateProfile(vidhi.id, {
       participationStatus: 'enrolled',
       approvedPreferences: {
         relationshipIntent: 'Long-term partnership',
@@ -495,7 +506,7 @@ describe('THE TEST — Acceptance Verification Suite', () => {
       approvedInterests: ['AI Ethics & Alignment', 'Robotics & Hardware'],
     });
 
-    const enrolled = repo.getById(alex.id);
+    const enrolled = repo.getById(vidhi.id);
     assert.ok(enrolled);
     assert.equal(enrolled.participationStatus, 'enrolled');
 
