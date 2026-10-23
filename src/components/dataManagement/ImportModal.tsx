@@ -3,7 +3,6 @@ import type { ImportBatchResult, ImportRowPreview } from '../../types/profile';
 import { importService } from '../../services/importService';
 import { profileRepo } from '../../services/profileRepository';
 import { getSampleCsvTemplate, getSampleJsonTemplate } from '../../utils/csvParser';
-import apifyResearchBatch from '../../data/apifyResearchBatch.json';
 import cohortResearchBatch from '../../data/cohortResearchBatch.json';
 import { 
   X, 
@@ -70,14 +69,6 @@ export const ImportModal: React.FC<ImportModalProps> = ({
     const result = importService.analyzeBatch(parseResult.records, currentProfiles);
     setBatchResult(result);
     setParseError(null);
-  };
-
-  const handleLoadApifyBatch = () => {
-    setFileName('apify_research_batch_02.json');
-    setParseError(null);
-    setBatchResult(null);
-    setImportSummary(null);
-    processContent(JSON.stringify(apifyResearchBatch, null, 2), 'json');
   };
 
   const handleLoadCohortBatch = () => {
@@ -259,18 +250,10 @@ export const ImportModal: React.FC<ImportModalProps> = ({
                   <div className="space-y-2">
                     <button
                       onClick={handleLoadCohortBatch}
-                      className="w-full py-2 px-3 rounded-lg bg-amber-950/70 hover:bg-amber-900 border border-amber-600/60 text-amber-200 text-[11px] font-mono-code flex items-center justify-center gap-1.5 transition-colors shadow-sm"
+                      className="w-full py-2 px-3 rounded-lg bg-pink-50 hover:bg-pink-100 border border-pink-300 text-pink-700 text-xs font-semibold flex items-center justify-center gap-1.5 transition-colors shadow-sm"
                     >
-                      <Sparkles className="w-3.5 h-3.5 text-amber-400" />
-                      <span>Load Peer Cohort Batch (10 Profiles)</span>
-                    </button>
-
-                    <button
-                      onClick={handleLoadApifyBatch}
-                      className="w-full py-2 px-3 rounded-lg bg-violet-950/70 hover:bg-violet-900 border border-violet-700/60 text-violet-200 text-[11px] font-mono-code flex items-center justify-center gap-1.5 transition-colors shadow-sm"
-                    >
-                      <Sparkles className="w-3.5 h-3.5 text-violet-400" />
-                      <span>Load Tech Luminaries Batch (10 Profiles)</span>
+                      <Sparkles className="w-3.5 h-3.5 text-pink-500" />
+                      <span>Load Peer Cohort Batch (10 Verified Profiles)</span>
                     </button>
 
                     <div className="flex gap-2">

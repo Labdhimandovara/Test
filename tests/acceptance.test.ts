@@ -1,6 +1,6 @@
 import { test, describe } from 'node:test';
 import assert from 'node:assert/strict';
-import { INITIAL_PROFILES } from '../src/data/seedProfiles.ts';
+import { INITIAL_PROFILES, INITIAL_16_PROFILES } from '../src/data/seedProfiles.ts';
 import { ProfileRepository } from '../src/services/profileRepository.ts';
 import { CompatibilityService } from '../src/services/compatibilityService.ts';
 import { ConversationService } from '../src/services/conversationService.ts';
@@ -11,8 +11,9 @@ import { parseCsv, exportToCsv } from '../src/utils/csvParser.ts';
 
 describe('THE TEST — Acceptance Verification Suite', () => {
   // Phase 1 Baseline Invariants
-  test('Criterion 2 & 3: Exactly 16 records loaded with accurate input data', () => {
-    assert.equal(INITIAL_PROFILES.length, 16, 'Dataset must contain exactly 16 preliminary records');
+  test('Criterion 2 & 3: Exactly 16 baseline records loaded with accurate input data', () => {
+    assert.equal(INITIAL_16_PROFILES.length, 16, 'Dataset must contain exactly 16 preliminary records');
+    assert.equal(INITIAL_PROFILES.length, 26, 'Total dataset must contain exactly 26 authentic candidate records');
 
     const expectedRecords = [
       {
@@ -159,7 +160,7 @@ describe('THE TEST — Acceptance Verification Suite', () => {
   });
 
   test('Criterion 5 & 10: ProfileRepository search, filtering, deduplication and dynamic count', () => {
-    const repo = new ProfileRepository();
+    const repo = new ProfileRepository(INITIAL_16_PROFILES);
     const all = repo.getAll();
     assert.equal(all.length, 16);
 
@@ -294,7 +295,7 @@ describe('THE TEST — Acceptance Verification Suite', () => {
 
   test('Phase 2: Idempotent bulk import prevents duplicates on repeated runs', () => {
     const importService = new ImportService();
-    const repo = new ProfileRepository();
+    const repo = new ProfileRepository(INITIAL_16_PROFILES);
 
     const newBatch = [
       {
@@ -369,7 +370,7 @@ describe('THE TEST — Acceptance Verification Suite', () => {
   });
 
   test('Phase 2: CSV Export and Re-Import consistency', () => {
-    const repo = new ProfileRepository();
+    const repo = new ProfileRepository(INITIAL_16_PROFILES);
     const all = repo.getAll();
     const csvString = exportToCsv(all);
     assert.ok(csvString.includes('Vidhi Mandovara'));
@@ -409,7 +410,7 @@ describe('THE TEST — Acceptance Verification Suite', () => {
 
   test('Phase 2: Apify Research Dataset batch parses, deduplicates and expands ledger to 26 records', async () => {
     const importService = new ImportService();
-    const repo = new ProfileRepository();
+    const repo = new ProfileRepository(INITIAL_16_PROFILES);
     repo.resetToSeedData();
     assert.equal(repo.getAll().length, 16);
 
@@ -432,11 +433,11 @@ describe('THE TEST — Acceptance Verification Suite', () => {
     assert.equal(repo.getAll().length, 26, 'Ledger successfully expanded to 26 profiles (>= 25 target)');
 
     // Ensure all 10 have safe defaults
-    const andrew = repo.query({ searchQuery: 'Andrew Ng' })[0];
-    assert.ok(andrew);
-    assert.equal(andrew.participationStatus, 'not_invited');
-    assert.equal(andrew.approvedPreferences, null);
-    assert.equal(andrew.sourceUrl, 'https://api.apify.com/v2/datasets/apify_research_batch_02/items');
+    const aditya = repo.query({ searchQuery: 'Aditya Rane' })[0];
+    assert.ok(aditya);
+    assert.equal(aditya.participationStatus, 'not_invited');
+    assert.equal(aditya.approvedPreferences, null);
+    assert.equal(aditya.sourceUrl, 'https://sitpune.edu.in');
 
     // Clean up
     repo.resetToSeedData();
@@ -445,7 +446,7 @@ describe('THE TEST — Acceptance Verification Suite', () => {
 
   test('Final Sprint: Peer Cohort Research Batch (10 real peers) integrates and expands ledger to 26 records', async () => {
     const importService = new ImportService();
-    const repo = new ProfileRepository();
+    const repo = new ProfileRepository(INITIAL_16_PROFILES);
     repo.resetToSeedData();
     assert.equal(repo.getAll().length, 16);
 

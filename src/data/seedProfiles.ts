@@ -1,18 +1,19 @@
 import type { Profile } from '../types/profile';
 
 /**
- * THE TEST — Initial Dataset (Phase 1)
+ * THE TEST — Initial Dataset
  *
- * Sourced strictly from preliminary research data.
+ * Sourced strictly from authentic research data (Symbiosis Institute of Technology
+ * and IMNU Nirma University peer cohort).
  * All records default to:
  * - participationStatus: 'not_invited' (zero consent implied)
  * - approvedPreferences: null (displays "Not provided")
  * - approvedInterests: null (displays "Not provided")
  *
  * Instagram URLs constructed from handles are marked as 'link_unverified'.
- * Soham Jade's handle has special characters; raw input preserved and URL withheld (null).
+ * Soham Jade's handle has wildcard characters; raw input preserved and URL withheld (null).
  */
-export const INITIAL_PROFILES: Profile[] = [
+export const INITIAL_16_PROFILES: Profile[] = [
   {
     id: 'usr_01_vidhi_mandovara',
     name: 'Vidhi Mandovara',
@@ -221,4 +222,155 @@ export const INITIAL_PROFILES: Profile[] = [
     createdAt: '2026-10-23T10:00:00.000Z',
     notes: 'Instagram URL constructed from handle; awaiting verification.',
   },
+];
+
+export const COHORT_10_PROFILES: Profile[] = [
+  {
+    id: 'usr_17_aditya_rane',
+    name: 'Aditya Rane',
+    linkedinUrl: 'https://www.linkedin.com/in/aditya-rane-a757281a1/',
+    instagramHandle: 'its_aadi_100',
+    instagramUrl: 'https://www.instagram.com/its_aadi_100/',
+    dataStatus: 'link_unverified',
+    participationStatus: 'not_invited',
+    approvedPreferences: null,
+    approvedInterests: null,
+    createdAt: '2026-10-23T10:00:00.000Z',
+    notes: 'SIT Pune, President of Rotonity Robotics Club.',
+    sourceUrl: 'https://sitpune.edu.in',
+  },
+  {
+    id: 'usr_18_pratham_talekar',
+    name: 'Pratham Talekar',
+    linkedinUrl: 'https://www.linkedin.com/in/prathameshtalekar/',
+    instagramHandle: 'pratham.t',
+    instagramUrl: 'https://www.instagram.com/pratham.t/',
+    dataStatus: 'link_unverified',
+    participationStatus: 'not_invited',
+    approvedPreferences: null,
+    approvedInterests: null,
+    createdAt: '2026-10-23T10:00:00.000Z',
+    notes: 'SIT Pune, E&TC, TIAA Hackathon winner.',
+    sourceUrl: 'https://sitpune.edu.in',
+  },
+  {
+    id: 'usr_19_kaushal_vidhani',
+    name: 'Kaushal Vidhani',
+    linkedinUrl: 'https://www.linkedin.com/in/kaushalvidhani/',
+    instagramHandle: 'kushal_vidhani',
+    instagramUrl: 'https://www.instagram.com/kushal_vidhani/',
+    dataStatus: 'link_unverified',
+    participationStatus: 'not_invited',
+    approvedPreferences: null,
+    approvedInterests: null,
+    createdAt: '2026-10-23T10:00:00.000Z',
+    notes: 'IMNU Nirma University, Kaizen Committee Member.',
+    sourceUrl: 'https://nirmauni.ac.in',
+  },
+  {
+    id: 'usr_20_lipsa_shah',
+    name: 'Lipsa Shah',
+    linkedinUrl: 'https://www.linkedin.com/in/lipsa-shah/',
+    instagramHandle: 'anchorlipsa',
+    instagramUrl: 'https://www.instagram.com/anchorlipsa/',
+    dataStatus: 'link_unverified',
+    participationStatus: 'not_invited',
+    approvedPreferences: null,
+    approvedInterests: null,
+    createdAt: '2026-10-23T10:00:00.000Z',
+    notes: 'IMNU Nirma University, Kaizen Committee Member, Anchor.',
+    sourceUrl: 'https://nirmauni.ac.in',
+  },
+  {
+    id: 'usr_21_anvi_gupta',
+    name: 'Anvi Gupta',
+    linkedinUrl: 'https://www.linkedin.com/in/anvigupta/',
+    instagramHandle: 'itsavnigupta_',
+    instagramUrl: 'https://www.instagram.com/itsavnigupta_/',
+    dataStatus: 'link_unverified',
+    participationStatus: 'not_invited',
+    approvedPreferences: null,
+    approvedInterests: null,
+    createdAt: '2026-10-23T10:00:00.000Z',
+    notes: 'IMNU Nirma University, Kaizen Committee Member.',
+    sourceUrl: 'https://nirmauni.ac.in',
+  },
+  {
+    id: 'usr_22_anshika_harlalka',
+    name: 'Anshika Harlalka',
+    linkedinUrl: 'https://www.linkedin.com/in/anshika-harlalka-88753b215/',
+    instagramHandle: '_anshika_1207',
+    instagramUrl: 'https://www.instagram.com/_anshika_1207/',
+    dataStatus: 'link_unverified',
+    participationStatus: 'not_invited',
+    approvedPreferences: null,
+    approvedInterests: null,
+    createdAt: '2026-10-23T10:00:00.000Z',
+    notes: 'IMNU Nirma University, Kaizen Committee Member.',
+    sourceUrl: 'https://nirmauni.ac.in',
+  },
+  {
+    id: 'usr_23_parimal_kulkarni',
+    name: 'Parimal Kulkarni',
+    linkedinUrl: 'https://www.linkedin.com/in/parimal-kulkarni-2a9072375/',
+    instagramHandle: 'primal_1009',
+    instagramUrl: 'https://www.instagram.com/primal_1009/',
+    dataStatus: 'link_unverified',
+    participationStatus: 'not_invited',
+    approvedPreferences: null,
+    approvedInterests: null,
+    createdAt: '2026-10-23T10:00:00.000Z',
+    notes: 'SIT Pune Computer Science Undergrad.',
+    sourceUrl: 'https://sitpune.edu.in',
+  },
+  {
+    id: 'usr_24_vedant_bhavsar',
+    name: 'Vedant Bhavsar',
+    linkedinUrl: 'https://www.linkedin.com/in/vedant-bhavsar1/',
+    instagramHandle: 'vedantt.py',
+    instagramUrl: 'https://www.instagram.com/vedantt.py/',
+    dataStatus: 'link_unverified',
+    participationStatus: 'not_invited',
+    approvedPreferences: null,
+    approvedInterests: null,
+    createdAt: '2026-10-23T10:00:00.000Z',
+    notes: 'Machine Learning & Python Developer, Pune.',
+    sourceUrl: 'https://sitpune.edu.in',
+  },
+  {
+    id: 'usr_25_anup_muttha',
+    name: 'Anup Muttha',
+    linkedinUrl: 'https://www.linkedin.com/in/anup-muttha/',
+    instagramHandle: 'anup_muttha_652',
+    instagramUrl: 'https://www.instagram.com/anup_muttha_652/',
+    dataStatus: 'link_unverified',
+    participationStatus: 'not_invited',
+    approvedPreferences: null,
+    approvedInterests: null,
+    createdAt: '2026-10-23T10:00:00.000Z',
+    notes: 'Artificial Intelligence & Data Science Engineering Student, Pune.',
+    sourceUrl: 'https://sitpune.edu.in',
+  },
+  {
+    id: 'usr_26_shubham_kumar',
+    name: 'Shubham Kumar',
+    linkedinUrl: 'https://www.linkedin.com/in/shubh4mkum4r/',
+    instagramHandle: 'shubhamkuma__r',
+    instagramUrl: 'https://www.instagram.com/shubhamkuma__r/',
+    dataStatus: 'link_unverified',
+    participationStatus: 'not_invited',
+    approvedPreferences: null,
+    approvedInterests: null,
+    createdAt: '2026-10-23T10:00:00.000Z',
+    notes: 'Python Developer & Backend Data Specialist, Pune.',
+    sourceUrl: 'https://sitpune.edu.in',
+  },
+];
+
+/**
+ * All 26 authentic candidate records available directly upon launch.
+ */
+export const INITIAL_PROFILES: Profile[] = [
+  ...INITIAL_16_PROFILES,
+  ...COHORT_10_PROFILES,
 ];

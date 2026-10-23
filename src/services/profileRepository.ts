@@ -8,7 +8,7 @@ import type {
   LinkVerificationDetail 
 } from '../types/profile';
 
-const STORAGE_KEY = 'the_test_profiles_v1';
+const STORAGE_KEY = 'the_test_profiles_v3';
 
 export interface ProfileFilterOptions {
   searchQuery?: string;
@@ -29,9 +29,11 @@ export interface ProfileSummaryCounts {
 
 export class ProfileRepository {
   private profiles: Profile[];
+  private seedData: Profile[];
 
-  constructor() {
-    this.profiles = this.loadProfiles();
+  constructor(initialProfiles?: Profile[]) {
+    this.seedData = initialProfiles ? [...initialProfiles] : [...INITIAL_PROFILES];
+    this.profiles = initialProfiles ? [...initialProfiles] : this.loadProfiles();
   }
 
   private loadProfiles(): Profile[] {
@@ -40,16 +42,23 @@ export class ProfileRepository {
       if (stored) {
         const parsed = JSON.parse(stored) as Profile[];
         if (Array.isArray(parsed) && parsed.length > 0) {
-          // Merge to ensure all 16 initial seed profiles are preserved
-          const existingIds = new Set(parsed.map(p => p.id));
-          const missingInitials = INITIAL_PROFILES.filter(p => !existingIds.has(p.id));
-          return [...parsed, ...missingInitials];
+          // Filter out obsolete celebrity/demo records
+          const cleanParsed = parsed.filter(p => 
+            !p.name.includes('Andrew Ng') && 
+            !p.name.includes('Fei-Fei Li') && 
+            !p.name.includes('Karpathy') && 
+            !p.name.includes('Murati')
+          );
+          // Merge to ensure all authentic initial seed profiles are preserved
+          const existingIds = new Set(cleanParsed.map(p => p.id));
+          const missingInitials = this.seedData.filter(p => !existingIds.has(p.id));
+          return [...cleanParsed, ...missingInitials];
         }
       }
     } catch {
       // Fallback if localStorage is unavailable
     }
-    return [...INITIAL_PROFILES];
+    return [...this.seedData];
   }
 
   private persist() {
@@ -355,7 +364,7 @@ export class ProfileRepository {
   }
 
   public resetToSeedData(): Profile[] {
-    this.profiles = [...INITIAL_PROFILES];
+    this.profiles = [...this.seedData];
     this.persist();
     return [...this.profiles];
   }

@@ -52,7 +52,7 @@ export function App() {
   };
 
   const handleResetToSeed = () => {
-    if (window.confirm('Reset dataset to the original 16 seed records? Any added or imported records will be removed.')) {
+    if (window.confirm('Reset dataset to the authentic 26 candidate records? Any manual changes will be reset.')) {
       profileRepo.resetToSeedData();
       refreshProfiles();
     }
