@@ -472,11 +472,11 @@ describe('THE TEST — Acceptance Verification Suite', () => {
     assert.equal(repeatAnalysis.validRows.length, 0);
 
     // Verify cohort records carry safe defaults
-    const kaushal = repo.query({ searchQuery: 'Kaushal Vidhani' })[0];
-    assert.ok(kaushal);
-    assert.equal(kaushal.participationStatus, 'not_invited');
-    assert.equal(kaushal.approvedPreferences, null);
-    assert.equal(kaushal.approvedInterests, null);
+    const parimal = repo.query({ searchQuery: 'Parimal Kulkarni' })[0];
+    assert.ok(parimal);
+    assert.equal(parimal.participationStatus, 'not_invited');
+    assert.equal(parimal.approvedPreferences, null);
+    assert.equal(parimal.approvedInterests, null);
 
     // Clean up
     repo.resetToSeedData();
